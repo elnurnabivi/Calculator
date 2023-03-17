@@ -20,16 +20,6 @@
         }
     }) 
 
-
-    /* equal.addEventListener('click', function(e){
-        try {
-            let answer = eval(screen.value);
-            screen.value = answer;
-        } catch (err) {
-            screen.value = "Error";
-        }
-    }) */
-
     clear.addEventListener('click', function(e){
         screen.value = "";
     })
